@@ -1,0 +1,27 @@
+@import "../../../../assets/style/Colors.scss";
+
+.social-media-icons {
+  display: flex;
+  gap: 16px;
+  right: 56px;
+}
+
+// .fa-envelope-open,
+// .fa-linkedin-in,
+// .fa-instagram {
+//   color: white;
+//   width: 32px;
+//   height: 32px;
+//   border-radius: 5px;
+//   padding: 8px;
+//   background-color: rgba(153, 137, 180, 0.4);
+// }
+
+.icon {
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: rgba(153, 137, 180, 0.4);
+}

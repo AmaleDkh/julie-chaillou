@@ -1,0 +1,8 @@
+@import "../style/Fonts.scss";
+@import "../style/Colors.scss";
+
+* {
+  font-family: "Open Sans";
+  background-color: $black-color;
+  color: white;
+}
