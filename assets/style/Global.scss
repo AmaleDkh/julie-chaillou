@@ -10,4 +10,31 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  margin: 160px 400px;
+  width: -webkit-fill-available;
+  height: 100%;
+
+  &__line {
+    width: 80px;
+    height: 2px;
+    background-color: $purple-color;
+    margin: 0 auto;
+    animation: fadeInLine 1.5s ease-in-out forwards;
+  }
+}
+
+h2 {
+  font-size: 32px;
 }

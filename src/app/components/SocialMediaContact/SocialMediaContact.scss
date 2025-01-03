@@ -1,0 +1,19 @@
+@import "../../../../assets/style/Colors.scss";
+
+.social-media-contact-icons {
+  display: flex;
+  gap: 80px;
+  right: 56px;
+  background: inherit;
+
+  a {
+    background: inherit;
+  }
+}
+
+.contact-icon {
+  color: white;
+  width: 56px;
+  height: 56px;
+  border-radius: 5px;
+}

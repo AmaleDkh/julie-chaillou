@@ -1,10 +1,19 @@
-// Component
+// Components
 import Layout from "../components/Layout/Layout";
+import ContactIntroduction from "../components/ContactIntroduction/ContactIntroduction";
+import SocialMediaContact from "../components/SocialMediaContact/SocialMediaContact";
+
+// Style
+import "../../../assets/style/Global.scss";
 
 function Contact() {
   return (
     <Layout>
-      <section>Contact</section>
+      <div className="contact-content">
+        <ContactIntroduction />
+        <div className="contact-content__line"></div>
+        <SocialMediaContact />
+      </div>
     </Layout>
   );
 }

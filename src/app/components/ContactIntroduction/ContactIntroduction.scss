@@ -1,0 +1,29 @@
+@import "../../../../assets/style/Colors.scss";
+@import "../../../../assets/style/Fonts.scss";
+
+.contact {
+  &__first-section {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    // margin: 160px 240px;
+    color: white;
+    text-align: center;
+
+    &__title {
+      font-family: "Bebas Neue";
+      margin-bottom: 32px;
+
+      span {
+        font-family: "Bebas Neue";
+        color: $green-color;
+      }
+    }
+
+    &__question {
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+  }
+}
