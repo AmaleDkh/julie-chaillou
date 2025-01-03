@@ -10,7 +10,8 @@
   box-sizing: border-box;
   padding: 40px 56px;
   z-index: 1000;
-  position: absolute;
+  // position: absolute;
+  position: fixed;
   background: none;
 
   &__text {
