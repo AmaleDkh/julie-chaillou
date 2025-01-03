@@ -6,12 +6,14 @@
   cursor: pointer;
   gap: 40px;
   font-weight: bold;
+  background: inherit;
 
   &__link {
     color: white;
     font-family: "Bebas Neue";
     text-decoration: none;
     font-size: 24px;
+    background: inherit;
 
     &:hover {
       color: $light-purple-color;
