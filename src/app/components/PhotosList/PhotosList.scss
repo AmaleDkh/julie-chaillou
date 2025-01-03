@@ -1,0 +1,22 @@
+@import "../../../../assets/style/Fonts.scss";
+
+.photos-list {
+  margin: 160px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+
+  &__photo-container {
+    &__photo {
+      width: 440px;
+      height: 600px;
+      object-fit: cover;
+    }
+  }
+}
+
+.blured-photo {
+  filter: blur(6px);
+  transition: filter 0.5s ease;
+}

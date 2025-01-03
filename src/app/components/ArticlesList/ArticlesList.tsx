@@ -12,6 +12,7 @@ import "./ArticlesList.scss";
 // API calls
 import { fetchTags, fetchPostsByTagId } from "../../../utils/api";
 
+// Types
 interface Tag {
   id: number;
   slug: string;
