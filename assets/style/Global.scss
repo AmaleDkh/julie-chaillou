@@ -2,7 +2,7 @@
 @import "../style/Colors.scss";
 
 * {
-  font-family: "Open Sans";
+  font-family: "Poppins";
 }
 
 body {
@@ -14,25 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.contact-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 64px;
-  margin: 160px 400px;
-  width: -webkit-fill-available;
-  height: 100%;
-
-  &__line {
-    width: 80px;
-    height: 2px;
-    background-color: $purple-color;
-    margin: 0 auto;
-    animation: fadeInLine 1.5s ease-in-out forwards;
-  }
 }
 
 h2 {

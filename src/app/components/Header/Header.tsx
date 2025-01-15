@@ -13,7 +13,7 @@ function Header() {
       <Logo />
       <div className="header__menu">
         <NavigationMenu />
-        <SocialMedia />
+        <SocialMedia classNameForVersion="header-version" />
         <Button link={"/contact"} text="UN PROJET ?" />
       </div>
     </header>

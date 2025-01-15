@@ -4,19 +4,42 @@
 .navigation-menu {
   display: flex;
   cursor: pointer;
-  gap: 40px;
+  gap: 56px;
   font-weight: bold;
   background: inherit;
 
-  &__link {
-    color: white;
-    font-family: "Bebas Neue";
-    text-decoration: none;
-    font-size: 24px;
-    background: inherit;
+  &__item {
+    position: relative;
+
+    &__link {
+      color: white;
+      font-family: "Bebas Neue";
+      text-decoration: none;
+      font-size: 24px;
+      background: inherit;
+
+      &:hover {
+        color: $light-purple-color;
+      }
+    }
 
     &:hover {
-      color: $light-purple-color;
+      .navigation-menu__item__submenu {
+        display: block;
+      }
+    }
+
+    &__submenu {
+      display: none;
+      position: absolute;
+      padding-top: 16px;
+      list-style-type: none;
+
+      &__project {
+        text-align: center;
+        width: max-content;
+        margin-bottom: 8px;
+      }
     }
   }
 }

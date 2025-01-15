@@ -1,17 +1,48 @@
 @import "../../../../assets/style/Fonts.scss";
 
 .photos-list {
-  margin: 160px auto;
+  margin: 240px;
   display: flex;
-  flex-wrap: wrap;
+
   justify-content: center;
-  gap: 24px;
 
   &__photo-container {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    position: relative;
+
     &__photo {
       width: 440px;
       height: 600px;
       object-fit: cover;
+      transition: opacity 0.7s ease, transform 0.7s ease, filter 0.7s ease;
+      opacity: 0.7;
+      filter: blur(3px);
+    }
+
+    &__small-photo {
+      width: 240px;
+      height: 400px;
+      object-fit: cover;
+      filter: blur(3px);
+      transition: filter 0.7s ease, opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    &__photo.center {
+      opacity: 1;
+      transform: scale(1.05);
+      filter: blur(0);
+    }
+
+    .left,
+    .right {
+      cursor: pointer;
+      transition: transform 0.7s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }

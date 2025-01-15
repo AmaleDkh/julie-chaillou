@@ -1,10 +1,10 @@
 // Components
-import Layout from "../components/Layout/Layout";
-import ContactIntroduction from "../components/ContactIntroduction/ContactIntroduction";
-import SocialMediaContact from "../components/SocialMediaContact/SocialMediaContact";
+import Layout from "../../components/Layout/Layout";
+import ContactIntroduction from "../../components/ContactIntroduction/ContactIntroduction";
+import SocialMediaContact from "../../components/SocialMediaContact/SocialMediaContact";
 
 // Style
-import "../../../assets/style/Global.scss";
+import "./contact.scss";
 
 function Contact() {
   return (

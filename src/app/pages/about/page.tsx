@@ -5,14 +5,14 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 // Component
-import Layout from "../components/Layout/Layout";
+import Layout from "../../components/Layout/Layout";
 
 // Style
 import "./about.scss";
 
 // Images
-import Photo1 from "../../../assets/images/photo1.webp";
-import Photo2 from "../../../assets/images/photo2.webp";
+import Photo1 from "../../../../assets/images/photo1.webp";
+import Photo2 from "../../../../assets/images/photo2.webp";
 
 function About() {
   useEffect(() => {

@@ -8,9 +8,13 @@ import "./SocialMedia.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
 
-function SocialMedia() {
+type socialMediaProps = {
+  classNameForVersion: string;
+};
+
+function SocialMedia({ classNameForVersion }: socialMediaProps) {
   return (
-    <div className="social-media-icons">
+    <div className={`social-media-icons ${classNameForVersion}`}>
       <Link
         href=""
         target="_blank"

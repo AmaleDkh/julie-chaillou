@@ -29,7 +29,6 @@ function BackgroundVideo() {
     const getTagId = async () => {
       try {
         const tags: Tag[] = await fetchTags();
-        console.log("tags", tags);
         const homepageVideoTag = tags.find(
           (tag: Tag) => tag.slug === "homepage-video"
         );

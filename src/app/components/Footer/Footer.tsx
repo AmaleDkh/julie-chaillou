@@ -10,7 +10,7 @@ function Footer() {
       <p className="footer__text">
         © 2024 JULIE VIDÉASTE | TOUS DROITS RÉSERVÉS
       </p>
-      <SocialMedia />
+      <SocialMedia classNameForVersion="footer-version" />
     </footer>
   );
 }

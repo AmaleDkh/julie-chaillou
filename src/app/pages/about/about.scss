@@ -1,16 +1,16 @@
-@import "../../../assets/style/Colors.scss";
+@import "../../../../assets/style/Colors.scss";
 
 .gradient-body {
-  background: linear-gradient(135deg, #000000, #3c1d4b, #1b1d36);
+  background: linear-gradient(135deg, #0e1116, #2c1d47, #1a1d33);
 }
 
 .about-content {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 144px;
   top: 0;
   left: 0;
-  margin: 160px 240px;
+  margin: 200px 240px;
   color: white;
 
   &__first-section,
@@ -23,7 +23,8 @@
     &__photo-container {
       position: relative;
       &__photo {
-        width: 328px;
+        width: 375px;
+        height: 475px;
       }
 
       &__square {
@@ -53,7 +54,7 @@
   &__first-section {
     &__photo-container {
       &__square {
-        top: 368px;
+        top: 424px;
       }
     }
   }
@@ -61,7 +62,7 @@
   &__second-section {
     &__photo-container {
       &__square {
-        top: 368px;
+        top: 424px;
       }
     }
   }

@@ -57,6 +57,7 @@ function ArticlesList() {
         if (tagId) {
           const posts: Article[] = await fetchPostsByTagId(tagId);
           setArticles(posts);
+          console.log("posts", posts);
         }
       } catch (error) {
         console.error("Erreur lors de la récupération des posts : ", error);
